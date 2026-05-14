@@ -1,0 +1,24 @@
+# ──────────────────────────────────────────────
+# Code Refactorer LLM — Dépendances Python
+# Toutes les versions sont épinglées pour la reproductibilité.
+# Mise à jour : avril 2025
+# ──────────────────────────────────────────────
+
+# LangChain — orchestration LLM
+langchain==0.3.25
+langchain-core>=0.3.59
+langchain-openai==0.3.16
+langchain-community==0.3.24
+
+# Interface utilisateur
+gradio==5.29.1
+
+# Configuration
+python-dotenv==1.1.0
+
+# OpenAI SDK (utilisé par langchain-openai)
+openai==1.75.0
+
+# Typing & utilitaires
+pydantic==2.11.3
+typing-extensions==4.13.2
